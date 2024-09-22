@@ -23,14 +23,22 @@ const socialArray = [
   },
 ];
 
-const Social = () => {
+type SocialProps = {
+  color: "white" | "black";
+};
+
+const Social: React.FC<SocialProps> = ({ color }: SocialProps) => {
   return (
-    <div className="absolute top-8 right-8">
-      <ul className="list-none flex flex-col gap-3">
+    <div className="absolute right-8 top-8">
+      <ul className="flex list-none flex-col gap-3">
         {socialArray.map((socialItem) => (
           <li key={socialItem.name}>
-            <a href="#">
+            <a>
               <img
+                style={{
+                  filter:
+                    color === "black" ? "invert(1) hue-rotate(180deg)" : "",
+                }}
                 className="transition-all hover:scale-125"
                 src={socialItem.url}
                 alt={socialItem.name}

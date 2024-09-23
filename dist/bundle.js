@@ -12,7 +12,7 @@
           o = t.n(l)()(a());
         o.push([
           e.id,
-          "*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}/*\n! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\ninput:where([type='button']),\ninput:where([type='reset']),\ninput:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\ndialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n[hidden] {\n  display: none;\n}\n.absolute {\n  position: absolute;\n}\n.left-\\[50\\%\\] {\n  left: 50%;\n}\n.right-8 {\n  right: 2rem;\n}\n.top-8 {\n  top: 2rem;\n}\n.top-\\[50\\%\\] {\n  top: 50%;\n}\n.flex {\n  display: flex;\n}\n.-translate-x-1\\/4 {\n  --tw-translate-x: -25%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n.-translate-y-1\\/4 {\n  --tw-translate-y: -25%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n.list-none {\n  list-style-type: none;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-start {\n  align-items: flex-start;\n}\n.justify-end {\n  justify-content: flex-end;\n}\n.gap-24 {\n  gap: 6rem;\n}\n.gap-3 {\n  gap: 0.75rem;\n}\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n.text-7xl {\n  font-size: 4.5rem;\n  line-height: 1;\n}\n.opacity-100 {\n  opacity: 1;\n}\n.opacity-80 {\n  opacity: 0.8;\n}\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n.carousel {\n    width: calc(100vw * var(--dynamic-length));\n    flex-direction: row;\n    display: flex;\n    height: 100%;\n  }\n.carousel-item {\n    background-image: var(--dynamic-path);\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    width: 100%;\n    height: 100%;\n  }\n\n* {\n  box-sizing: border-box;\n}\n\n:root {\n  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;\n  line-height: 1.5;\n  font-weight: 400;\n\n  color-scheme: light dark;\n  color: rgba(255, 255, 255, 0.87);\n  background-color: #242424;\n\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-text-size-adjust: 100%;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n}\n\n#root {\n  margin: 0;\n  min-width: 320px;\n  min-height: 100vh;\n}\n\n#hero {\n  position: relative;\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  overflow: hidden;\n  scroll-snap-align: center;\n}\n\n/* .carousel-item {\n    background-image: var(--dynamic-path);\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    width: 100%;\n    height: 100%;\n} */\n\n.hover\\:scale-125:hover {\n  --tw-scale-x: 1.25;\n  --tw-scale-y: 1.25;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n",
+          "*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}/*\n! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\ninput:where([type='button']),\ninput:where([type='reset']),\ninput:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\ndialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n[hidden] {\n  display: none;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.left-8 {\n  left: 2rem;\n}\n.right-8 {\n  right: 2rem;\n}\n.top-8 {\n  top: 2rem;\n}\n.z-10 {\n  z-index: 10;\n}\n.flex {\n  display: flex;\n}\n.transform {\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.list-none {\n  list-style-type: none;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-start {\n  align-items: flex-start;\n}\n.justify-end {\n  justify-content: flex-end;\n}\n.gap-24 {\n  gap: 6rem;\n}\n.gap-3 {\n  gap: 0.75rem;\n}\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n.text-10xl {\n  font-size: 10em;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n.text-7xl {\n  font-size: 4.5rem;\n  line-height: 1;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.opacity-100 {\n  opacity: 1;\n}\n.opacity-80 {\n  opacity: 0.8;\n}\n.invert {\n  --tw-invert: invert(100%);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n.filter {\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n.delay-0 {\n  transition-delay: 0s;\n}\n.delay-75 {\n  transition-delay: 75ms;\n}\n.duration-100 {\n  transition-duration: 100ms;\n}\n.duration-500 {\n  transition-duration: 500ms;\n}\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n.ease-linear {\n  transition-timing-function: linear;\n}\n.carousel {\n\t\twidth: calc(100vw * var(--dynamic-length));\n\t\tflex-direction: row;\n\t\tdisplay: flex;\n\t\theight: 100%;\n\t}\n.carousel-item {\n\t\tbackground-image: var(--dynamic-path);\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t\twidth: 100%;\n\t\theight: 100%;\n\t}\n.navigation {\n\t\tposition: absolute;\n\t\ttop: 50%;\n\t\tleft: 56%;\n\t\ttransform: translate(-50%, -50%);\n\t\t-webkit-transform: translate(-50%, -50%);\n\t\t-moz-transform: translate(-50%, -50%);\n\t\t-ms-transform: translate(-50%, -50%);\n\t\t-o-transform: translate(-50%, -50%);\n}\n\n* {\n\tbox-sizing: border-box;\n}\n\n:root {\n\tfont-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;\n\tline-height: 1.5;\n\tfont-weight: 400;\n\n\tcolor-scheme: light dark;\n\tcolor: rgba(255, 255, 255, 0.87);\n\tbackground-color: #242424;\n\n\tfont-synthesis: none;\n\ttext-rendering: optimizeLegibility;\n\t-webkit-font-smoothing: antialiased;\n\t-moz-osx-font-smoothing: grayscale;\n\t-webkit-text-size-adjust: 100%;\n}\n\nbody {\n\tmargin: 0;\n\tpadding: 0;\n}\n\n#root {\n\tmargin: 0;\n\tmin-width: 320px;\n\tmin-height: 100vh;\n}\n\n#hero {\n\tposition: relative;\n\twidth: 100vw;\n\theight: 100vh;\n\tmargin: 0;\n\tpadding: 0;\n\ttext-align: center;\n\toverflow: hidden;\n\tscroll-snap-align: center;\n}\n\n/* .carousel-item {\n    background-image: var(--dynamic-path);\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    width: 100%;\n    height: 100%;\n} */\n\n.hover\\:scale-125:hover {\n  --tw-scale-x: 1.25;\n  --tw-scale-y: 1.25;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n",
           "",
         ]);
         const i = o;
@@ -293,8 +293,8 @@
           E = Symbol.for("react.strict_mode"),
           C = Symbol.for("react.profiler"),
           _ = Symbol.for("react.provider"),
-          P = Symbol.for("react.context"),
-          z = Symbol.for("react.forward_ref"),
+          z = Symbol.for("react.context"),
+          P = Symbol.for("react.forward_ref"),
           N = Symbol.for("react.suspense"),
           L = Symbol.for("react.suspense_list"),
           T = Symbol.for("react.memo"),
@@ -440,11 +440,11 @@
           }
           if ("object" == typeof e)
             switch (e.$$typeof) {
-              case P:
+              case z:
                 return (e.displayName || "Context") + ".Consumer";
               case _:
                 return (e._context.displayName || "Context") + ".Provider";
-              case z:
+              case P:
                 var n = e.render;
                 return (
                   (e = e.displayName) ||
@@ -932,7 +932,7 @@
         function _e(e) {
           xe ? (Ee ? Ee.push(e) : (Ee = [e])) : (xe = e);
         }
-        function Pe() {
+        function ze() {
           if (xe) {
             var e = xe,
               n = Ee;
@@ -940,7 +940,7 @@
               for (e = 0; e < n.length; e++) Ce(n[e]);
           }
         }
-        function ze(e, n) {
+        function Pe(e, n) {
           return e(n);
         }
         function Ne() {}
@@ -949,9 +949,9 @@
           if (Le) return e(n, t);
           Le = !0;
           try {
-            return ze(e, n, t);
+            return Pe(e, n, t);
           } finally {
-            (Le = !1), (null !== xe || null !== Ee) && (Ne(), Pe());
+            (Le = !1), (null !== xe || null !== Ee) && (Ne(), ze());
           }
         }
         function Re(e, n) {
@@ -1290,8 +1290,8 @@
           En,
           Cn,
           _n,
-          Pn = !1,
-          zn = [],
+          zn = !1,
+          Pn = [],
           Nn = null,
           Ln = null,
           Tn = null,
@@ -1378,7 +1378,7 @@
           An(e) && t.delete(n);
         }
         function $n() {
-          (Pn = !1),
+          (zn = !1),
             null !== Nn && An(Nn) && (Nn = null),
             null !== Ln && An(Ln) && (Ln = null),
             null !== Tn && An(Tn) && (Tn = null),
@@ -1388,18 +1388,18 @@
         function Bn(e, n) {
           e.blockedOn === n &&
             ((e.blockedOn = null),
-            Pn ||
-              ((Pn = !0),
+            zn ||
+              ((zn = !0),
               a.unstable_scheduleCallback(a.unstable_NormalPriority, $n)));
         }
         function Vn(e) {
           function n(n) {
             return Bn(n, e);
           }
-          if (0 < zn.length) {
-            Bn(zn[0], e);
-            for (var t = 1; t < zn.length; t++) {
-              var r = zn[t];
+          if (0 < Pn.length) {
+            Bn(Pn[0], e);
+            for (var t = 1; t < Pn.length; t++) {
+              var r = Pn[t];
               r.blockedOn === e && (r.blockedOn = null);
             }
           }
@@ -1838,8 +1838,8 @@
                   : 0;
             },
           }),
-          Pt = lt(_t),
-          zt = lt(
+          zt = lt(_t),
+          Pt = lt(
             I({}, pt, {
               pointerId: 0,
               width: 0,
@@ -2207,8 +2207,8 @@
             delete Sr.animationstart.animation),
           "TransitionEvent" in window || delete Sr.transitionend.transition);
         var _r = Cr("animationend"),
-          Pr = Cr("animationiteration"),
-          zr = Cr("animationstart"),
+          zr = Cr("animationiteration"),
+          Pr = Cr("animationstart"),
           Nr = Cr("transitionend"),
           Lr = new Map(),
           Tr =
@@ -2223,8 +2223,8 @@
           Rr(Or.toLowerCase(), "on" + (Or[0].toUpperCase() + Or.slice(1)));
         }
         Rr(_r, "onAnimationEnd"),
-          Rr(Pr, "onAnimationIteration"),
-          Rr(zr, "onAnimationStart"),
+          Rr(zr, "onAnimationIteration"),
+          Rr(Pr, "onAnimationStart"),
           Rr("dblclick", "onDoubleClick"),
           Rr("focusin", "onFocus"),
           Rr("focusout", "onBlur"),
@@ -2411,7 +2411,7 @@
                     if (0 === tt(t)) break e;
                   case "keydown":
                   case "keyup":
-                    u = Pt;
+                    u = zt;
                     break;
                   case "focusin":
                     (s = "focus"), (u = gt);
@@ -2452,8 +2452,8 @@
                     u = Nt;
                     break;
                   case _r:
-                  case Pr:
                   case zr:
+                  case Pr:
                     u = vt;
                     break;
                   case Nr:
@@ -2478,7 +2478,7 @@
                   case "pointerout":
                   case "pointerover":
                   case "pointerup":
-                    u = zt;
+                    u = Pt;
                 }
                 var c = !!(4 & n),
                   f = !c && "scroll" === e,
@@ -2534,7 +2534,7 @@
                   (d = "onMouseEnter"),
                   (m = "mouse"),
                   ("pointerout" !== e && "pointerover" !== e) ||
-                    ((c = zt),
+                    ((c = Pt),
                     (h = "onPointerLeave"),
                     (d = "onPointerEnter"),
                     (m = "pointer")),
@@ -2861,13 +2861,13 @@
         function _a(e, n) {
           xa++, (Sa[xa] = e.current), (e.current = n);
         }
-        var Pa = {},
-          za = Ea(Pa),
+        var za = {},
+          Pa = Ea(za),
           Na = Ea(!1),
-          La = Pa;
+          La = za;
         function Ta(e, n) {
           var t = e.type.contextTypes;
-          if (!t) return Pa;
+          if (!t) return za;
           var r = e.stateNode;
           if (r && r.__reactInternalMemoizedUnmaskedChildContext === n)
             return r.__reactInternalMemoizedMaskedChildContext;
@@ -2886,11 +2886,11 @@
           return null != e.childContextTypes;
         }
         function Ma() {
-          Ca(Na), Ca(za);
+          Ca(Na), Ca(Pa);
         }
         function Oa(e, n, t) {
-          if (za.current !== Pa) throw Error(l(168));
-          _a(za, n), _a(Na, t);
+          if (Pa.current !== za) throw Error(l(168));
+          _a(Pa, n), _a(Na, t);
         }
         function Fa(e, n, t) {
           var r = e.stateNode;
@@ -2907,9 +2907,9 @@
             (e =
               ((e = e.stateNode) &&
                 e.__reactInternalMemoizedMergedChildContext) ||
-              Pa),
-            (La = za.current),
-            _a(za, e),
+              za),
+            (La = Pa.current),
+            _a(Pa, e),
             _a(Na, Na.current),
             !0
           );
@@ -2921,8 +2921,8 @@
             ? ((e = Fa(e, n, La)),
               (r.__reactInternalMemoizedMergedChildContext = e),
               Ca(Na),
-              Ca(za),
-              _a(za, e))
+              Ca(Pa),
+              _a(Pa, e))
             : Ca(Na),
             _a(Na, t);
         }
@@ -3512,11 +3512,11 @@
         function _l() {
           Cl = El = xl = null;
         }
-        function Pl(e) {
+        function zl(e) {
           var n = Sl.current;
           Ca(Sl), (e._currentValue = n);
         }
-        function zl(e, n, t) {
+        function Pl(e, n, t) {
           for (; null !== e; ) {
             var r = e.alternate;
             if (
@@ -3605,7 +3605,7 @@
         function Al(e, n, t) {
           var r = e.updateQueue;
           if (null === r) return null;
-          if (((r = r.shared), 2 & zu)) {
+          if (((r = r.shared), 2 & Pu)) {
             var a = r.pending;
             return (
               null === a ? (n.next = n) : ((n.next = a.next), (a.next = n)),
@@ -4023,7 +4023,7 @@
           if (
             (o && ((r.memoizedState = a), (bi = !0)),
             (r = r.queue),
-            Do(Po.bind(null, t, r, e), [e]),
+            Do(zo.bind(null, t, r, e), [e]),
             r.getSnapshot !== n ||
               o ||
               (null !== uo && 1 & uo.memoizedState.tag))
@@ -4050,14 +4050,14 @@
                 : t.push(e);
         }
         function _o(e, n, t, r) {
-          (n.value = t), (n.getSnapshot = r), zo(n) && No(e);
+          (n.value = t), (n.getSnapshot = r), Po(n) && No(e);
         }
-        function Po(e, n, t) {
+        function zo(e, n, t) {
           return t(function () {
-            zo(n) && No(e);
+            Po(n) && No(e);
           });
         }
-        function zo(e) {
+        function Po(e) {
           var n = e.getSnapshot;
           e = e.value;
           try {
@@ -4356,7 +4356,7 @@
               var o = { value: t, getSnapshot: n };
               return (
                 (a.queue = o),
-                Fo(Po.bind(null, r, o, e), [e]),
+                Fo(zo.bind(null, r, o, e), [e]),
                 (r.flags |= 2048),
                 To(9, _o.bind(null, r, o, t, n), void 0, null),
                 t
@@ -4492,13 +4492,13 @@
         }
         function oi(e, n, t) {
           var r = !1,
-            a = Pa,
+            a = za,
             l = n.contextType;
           return (
             "object" == typeof l && null !== l
               ? (l = Ll(l))
-              : ((a = Ra(n) ? La : za.current),
-                (l = (r = null != (r = n.contextTypes)) ? Ta(e, a) : Pa)),
+              : ((a = Ra(n) ? La : Pa.current),
+                (l = (r = null != (r = n.contextTypes)) ? Ta(e, a) : za)),
             (n = new n(t, l)),
             (e.memoizedState =
               null !== n.state && void 0 !== n.state ? n.state : null),
@@ -4526,7 +4526,7 @@
           var l = n.contextType;
           "object" == typeof l && null !== l
             ? (a.context = Ll(l))
-            : ((l = Ra(n) ? La : za.current), (a.context = Ta(e, l))),
+            : ((l = Ra(n) ? La : Pa.current), (a.context = Ta(e, l))),
             (a.state = e.memoizedState),
             "function" == typeof (l = n.getDerivedStateFromProps) &&
               (ri(e, n, l, t), (a.state = e.memoizedState)),
@@ -4759,7 +4759,7 @@
             ((n.flags |= 512), (n.flags |= 2097152));
         }
         function _i(e, n, t, r, a) {
-          var l = Ra(t) ? La : za.current;
+          var l = Ra(t) ? La : Pa.current;
           return (
             (l = Ta(n, l)),
             Nl(n, a),
@@ -4773,7 +4773,7 @@
                 Hi(e, n, a))
           );
         }
-        function Pi(e, n, t, r, a) {
+        function zi(e, n, t, r, a) {
           if (Ra(t)) {
             var l = !0;
             Da(n);
@@ -4789,7 +4789,7 @@
             s =
               "object" == typeof s && null !== s
                 ? Ll(s)
-                : Ta(n, (s = Ra(t) ? La : za.current));
+                : Ta(n, (s = Ra(t) ? La : Pa.current));
             var c = t.getDerivedStateFromProps,
               f =
                 "function" == typeof c ||
@@ -4838,7 +4838,7 @@
               (u =
                 "object" == typeof (u = t.contextType) && null !== u
                   ? Ll(u)
-                  : Ta(n, (u = Ra(t) ? La : za.current)));
+                  : Ta(n, (u = Ra(t) ? La : Pa.current)));
             var p = t.getDerivedStateFromProps;
             (c =
               "function" == typeof p ||
@@ -4885,9 +4885,9 @@
                   (n.flags |= 1024),
                 (r = !1));
           }
-          return zi(e, n, t, r, l, a);
+          return Pi(e, n, t, r, l, a);
         }
-        function zi(e, n, t, r, a, l) {
+        function Pi(e, n, t, r, a, l) {
           Ci(e, n);
           var o = !!(128 & n.flags);
           if (!r && !o) return a && Ia(n, t, !1), Hi(e, n, l);
@@ -5047,7 +5047,7 @@
               return "$?" === a.data
                 ? ((n.flags |= 128),
                   (n.child = e.child),
-                  (n = Ps.bind(null, e)),
+                  (n = zs.bind(null, e)),
                   (a._reactRetry = n),
                   null)
                 : ((e = o.treeContext),
@@ -5135,7 +5135,7 @@
         function ji(e, n, t) {
           e.lanes |= n;
           var r = e.alternate;
-          null !== r && (r.lanes |= n), zl(e.return, n, t);
+          null !== r && (r.lanes |= n), Pl(e.return, n, t);
         }
         function $i(e, n, t, r, a) {
           var l = e.memoizedState;
@@ -5296,7 +5296,7 @@
                 (r = n.stateNode),
                 Xl(),
                 Ca(Na),
-                Ca(za),
+                Ca(Pa),
                 to(),
                 r.pendingContext &&
                   ((r.context = r.pendingContext), (r.pendingContext = null)),
@@ -5591,7 +5591,7 @@
                 null
               );
             case 10:
-              return Pl(n.type._context), Qi(n), null;
+              return zl(n.type._context), Qi(n), null;
             case 19:
               if ((Ca(Zl), null === (o = n.memoizedState))) return Qi(n), null;
               if (((r = !!(128 & n.flags)), null === (u = o.rendering)))
@@ -5722,7 +5722,7 @@
               return (
                 Xl(),
                 Ca(Na),
-                Ca(za),
+                Ca(Pa),
                 to(),
                 65536 & (e = n.flags) && !(128 & e)
                   ? ((n.flags = (-65537 & e) | 128), n)
@@ -5746,7 +5746,7 @@
             case 4:
               return Xl(), null;
             case 10:
-              return Pl(n.type._context), null;
+              return zl(n.type._context), null;
             case 22:
             case 23:
               return fs(), null;
@@ -6078,7 +6078,7 @@
             var t = e.stateNode;
             null === t && (t = e.stateNode = new Gi()),
               n.forEach(function (n) {
-                var r = zs.bind(null, e, n);
+                var r = Ps.bind(null, e, n);
                 t.has(n) || (t.add(n), n.then(r, r));
               });
           }
@@ -6585,8 +6585,8 @@
           Eu = Math.ceil,
           Cu = w.ReactCurrentDispatcher,
           _u = w.ReactCurrentOwner,
-          Pu = w.ReactCurrentBatchConfig,
-          zu = 0,
+          zu = w.ReactCurrentBatchConfig,
+          Pu = 0,
           Nu = null,
           Lu = null,
           Tu = 0,
@@ -6613,11 +6613,11 @@
           Ju = -1,
           Zu = 0;
         function es() {
-          return 6 & zu ? Ge() : -1 !== Ju ? Ju : (Ju = Ge());
+          return 6 & Pu ? Ge() : -1 !== Ju ? Ju : (Ju = Ge());
         }
         function ns(e) {
           return 1 & e.mode
-            ? 2 & zu && 0 !== Tu
+            ? 2 & Pu && 0 !== Tu
               ? Tu & -Tu
               : null !== hl.transition
                 ? (0 === Zu && (Zu = gn()), Zu)
@@ -6629,11 +6629,11 @@
         function ts(e, n, t, r) {
           if (50 < Xu) throw ((Xu = 0), (Gu = null), Error(l(185)));
           yn(e, t, r),
-            (2 & zu && e === Nu) ||
-              (e === Nu && (!(2 & zu) && (Iu |= t), 4 === Ou && is(e, Tu)),
+            (2 & Pu && e === Nu) ||
+              (e === Nu && (!(2 & Pu) && (Iu |= t), 4 === Ou && is(e, Tu)),
               rs(e, r),
               1 === t &&
-                0 === zu &&
+                0 === Pu &&
                 !(1 & n.mode) &&
                 ((Bu = Ge() + 500), Aa && Ba()));
         }
@@ -6670,7 +6670,7 @@
                   })(us.bind(null, e))
                 : $a(us.bind(null, e)),
                 oa(function () {
-                  !(6 & zu) && Ba();
+                  !(6 & Pu) && Ba();
                 }),
                 (t = null);
             else {
@@ -6694,7 +6694,7 @@
           }
         }
         function as(e, n) {
-          if (((Ju = -1), (Zu = 0), 6 & zu)) throw Error(l(327));
+          if (((Ju = -1), (Zu = 0), 6 & Pu)) throw Error(l(327));
           var t = e.callbackNode;
           if (Ss() && e.callbackNode !== t) return null;
           var r = pn(e, e === Nu ? Tu : 0);
@@ -6702,8 +6702,8 @@
           if (30 & r || r & e.expiredLanes || n) n = gs(e, r);
           else {
             n = r;
-            var a = zu;
-            zu |= 2;
+            var a = Pu;
+            Pu |= 2;
             var o = ms();
             for (
               (Nu === e && Tu === n) ||
@@ -6719,7 +6719,7 @@
               }
             _l(),
               (Cu.current = o),
-              (zu = a),
+              (Pu = a),
               null !== Lu ? (n = 0) : ((Nu = null), (Tu = 0), (n = Ou));
           }
           if (0 !== n) {
@@ -6856,7 +6856,7 @@
           }
         }
         function us(e) {
-          if (6 & zu) throw Error(l(327));
+          if (6 & Pu) throw Error(l(327));
           Ss();
           var n = pn(e, 0);
           if (!(1 & n)) return rs(e, Ge()), null;
@@ -6876,24 +6876,24 @@
           );
         }
         function ss(e, n) {
-          var t = zu;
-          zu |= 1;
+          var t = Pu;
+          Pu |= 1;
           try {
             return e(n);
           } finally {
-            0 === (zu = t) && ((Bu = Ge() + 500), Aa && Ba());
+            0 === (Pu = t) && ((Bu = Ge() + 500), Aa && Ba());
           }
         }
         function cs(e) {
-          null !== Ku && 0 === Ku.tag && !(6 & zu) && Ss();
-          var n = zu;
-          zu |= 1;
-          var t = Pu.transition,
+          null !== Ku && 0 === Ku.tag && !(6 & Pu) && Ss();
+          var n = Pu;
+          Pu |= 1;
+          var t = zu.transition,
             r = wn;
           try {
-            if (((Pu.transition = null), (wn = 1), e)) return e();
+            if (((zu.transition = null), (wn = 1), e)) return e();
           } finally {
-            (wn = r), (Pu.transition = t), !(6 & (zu = n)) && Ba();
+            (wn = r), (zu.transition = t), !(6 & (Pu = n)) && Ba();
           }
         }
         function fs() {
@@ -6910,7 +6910,7 @@
                   null != (r = r.type.childContextTypes) && Ma();
                   break;
                 case 3:
-                  Xl(), Ca(Na), Ca(za), to();
+                  Xl(), Ca(Na), Ca(Pa), to();
                   break;
                 case 5:
                   Jl(r);
@@ -6923,7 +6923,7 @@
                   Ca(Zl);
                   break;
                 case 10:
-                  Pl(r.type._context);
+                  zl(r.type._context);
                   break;
                 case 22:
                 case 23:
@@ -7082,8 +7082,8 @@
               is(Nu, Tu);
         }
         function gs(e, n) {
-          var t = zu;
-          zu |= 2;
+          var t = Pu;
+          Pu |= 2;
           var r = ms();
           for ((Nu === e && Tu === n) || ((Vu = null), ds(e, n)); ; )
             try {
@@ -7092,7 +7092,7 @@
             } catch (n) {
               ps(e, n);
             }
-          if ((_l(), (zu = t), (Cu.current = r), null !== Lu))
+          if ((_l(), (Pu = t), (Cu.current = r), null !== Lu))
             throw Error(l(261));
           return (Nu = null), (Tu = 0), Ou;
         }
@@ -7125,15 +7125,15 @@
         }
         function ks(e, n, t) {
           var r = wn,
-            a = Pu.transition;
+            a = zu.transition;
           try {
-            (Pu.transition = null),
+            (zu.transition = null),
               (wn = 1),
               (function (e, n, t, r) {
                 do {
                   Ss();
                 } while (null !== Ku);
-                if (6 & zu) throw Error(l(327));
+                if (6 & Pu) throw Error(l(327));
                 t = e.finishedWork;
                 var a = e.finishedLanes;
                 if (null === t) return null;
@@ -7172,11 +7172,11 @@
                   (o = !!(15990 & t.flags)),
                   15990 & t.subtreeFlags || o)
                 ) {
-                  (o = Pu.transition), (Pu.transition = null);
+                  (o = zu.transition), (zu.transition = null);
                   var i = wn;
                   wn = 1;
-                  var u = zu;
-                  (zu |= 4),
+                  var u = Pu;
+                  (Pu |= 4),
                     (_u.current = null),
                     (function (e, n) {
                       if (((ea = Wn), pr((e = dr())))) {
@@ -7314,9 +7314,9 @@
                     (e.current = t),
                     yu(t, e, a),
                     Xe(),
-                    (zu = u),
+                    (Pu = u),
                     (wn = i),
-                    (Pu.transition = o);
+                    (zu.transition = o);
                 } else e.current = t;
                 if (
                   (qu && ((qu = !1), (Ku = e), (Yu = a)),
@@ -7350,23 +7350,23 @@
                   Ba();
               })(e, n, t, r);
           } finally {
-            (Pu.transition = a), (wn = r);
+            (zu.transition = a), (wn = r);
           }
           return null;
         }
         function Ss() {
           if (null !== Ku) {
             var e = kn(Yu),
-              n = Pu.transition,
+              n = zu.transition,
               t = wn;
             try {
-              if (((Pu.transition = null), (wn = 16 > e ? 16 : e), null === Ku))
+              if (((zu.transition = null), (wn = 16 > e ? 16 : e), null === Ku))
                 var r = !1;
               else {
-                if (((e = Ku), (Ku = null), (Yu = 0), 6 & zu))
+                if (((e = Ku), (Ku = null), (Yu = 0), 6 & Pu))
                   throw Error(l(331));
-                var a = zu;
-                for (zu |= 4, Ji = e.current; null !== Ji; ) {
+                var a = Pu;
+                for (Pu |= 4, Ji = e.current; null !== Ji; ) {
                   var o = Ji,
                     i = o.child;
                   if (16 & Ji.flags) {
@@ -7464,7 +7464,7 @@
                     }
                 }
                 if (
-                  ((zu = a),
+                  ((Pu = a),
                   Ba(),
                   ln && "function" == typeof ln.onPostCommitFiberRoot)
                 )
@@ -7475,7 +7475,7 @@
               }
               return r;
             } finally {
-              (wn = t), (Pu.transition = n);
+              (wn = t), (zu.transition = n);
             }
           }
           return !1;
@@ -7530,12 +7530,12 @@
           var t = es();
           null !== (e = Ol(e, n)) && (yn(e, n, t), rs(e, t));
         }
-        function Ps(e) {
+        function zs(e) {
           var n = e.memoizedState,
             t = 0;
           null !== n && (t = n.retryLane), _s(e, t);
         }
-        function zs(e, n) {
+        function Ps(e, n) {
           var t = 0;
           switch (e.tag) {
             case 13:
@@ -7648,10 +7648,10 @@
                     case _:
                       i = 10;
                       break e;
-                    case P:
+                    case z:
                       i = 9;
                       break e;
-                    case z:
+                    case P:
                       i = 11;
                       break e;
                     case T:
@@ -7745,7 +7745,7 @@
           );
         }
         function $s(e) {
-          if (!e) return Pa;
+          if (!e) return za;
           e: {
             if (Be((e = e._reactInternals)) !== e || 1 !== e.tag)
               throw Error(l(170));
@@ -7875,7 +7875,7 @@
             case 2:
               var r = n.type;
               Vi(e, n), (e = n.pendingProps);
-              var a = Ta(n, za.current);
+              var a = Ta(n, Pa.current);
               Nl(n, t), (a = go(null, n, r, e, a, t));
               var o = vo();
               return (
@@ -7895,7 +7895,7 @@
                     (n.stateNode = a),
                     (a._reactInternals = n),
                     ui(n, r, e, t),
-                    (n = zi(null, n, r, !0, o, t)))
+                    (n = Pi(null, n, r, !0, o, t)))
                   : ((n.tag = 0),
                     al && o && el(n),
                     wi(null, n, a, t),
@@ -7914,7 +7914,7 @@
                     (function (e) {
                       if ("function" == typeof e) return Rs(e) ? 1 : 0;
                       if (null != e) {
-                        if ((e = e.$$typeof) === z) return 11;
+                        if ((e = e.$$typeof) === P) return 11;
                         if (e === T) return 14;
                       }
                       return 2;
@@ -7926,7 +7926,7 @@
                     n = _i(null, n, r, e, t);
                     break e;
                   case 1:
-                    n = Pi(null, n, r, e, t);
+                    n = zi(null, n, r, e, t);
                     break e;
                   case 11:
                     n = ki(null, n, r, e, t);
@@ -7948,7 +7948,7 @@
               return (
                 (r = n.type),
                 (a = n.pendingProps),
-                Pi(e, n, r, (a = n.elementType === r ? a : ti(r, a)), t)
+                zi(e, n, r, (a = n.elementType === r ? a : ti(r, a)), t)
               );
             case 3:
               e: {
@@ -8076,7 +8076,7 @@
                             }
                             (o.lanes |= t),
                               null !== (s = o.alternate) && (s.lanes |= t),
-                              zl(o.return, t, n),
+                              Pl(o.return, t, n),
                               (u.lanes |= t);
                             break;
                           }
@@ -8088,7 +8088,7 @@
                         if (null === (i = o.return)) throw Error(l(341));
                         (i.lanes |= t),
                           null !== (u = i.alternate) && (u.lanes |= t),
-                          zl(i, t, n),
+                          Pl(i, t, n),
                           (i = o.sibling);
                       } else i = o.child;
                       if (null !== i) i.return = o;
@@ -8137,7 +8137,7 @@
                 Nl(n, t),
                 oi(n, r, a),
                 ui(n, r, a, t),
-                zi(null, n, r, !0, e, t)
+                Pi(null, n, r, !0, e, t)
               );
             case 19:
               return Bi(e, n, t);
@@ -8266,7 +8266,7 @@
                   0 !== t &&
                     (bn(n, 1 | t),
                     rs(n, Ge()),
-                    !(6 & zu) && ((Bu = Ge() + 500), Ba()));
+                    !(6 & Pu) && ((Bu = Ge() + 500), Ba()));
                 }
                 break;
               case 13:
@@ -8335,11 +8335,11 @@
                 null != (n = t.value) && te(e, !!t.multiple, n, !1);
             }
           }),
-          (ze = ss),
+          (Pe = ss),
           (Ne = cs);
         var ec = {
             usingClientEntryPoint: !1,
-            Events: [ba, wa, ka, _e, Pe, ss],
+            Events: [ba, wa, ka, _e, ze, ss],
           },
           nc = {
             findFiberByHostInstance: ya,
@@ -8587,8 +8587,8 @@
         function _(e) {
           return "object" == typeof e && null !== e && e.$$typeof === t;
         }
-        var P = /\/+/g;
-        function z(e, n) {
+        var z = /\/+/g;
+        function P(e, n) {
           return "object" == typeof e && null !== e && null != e.key
             ? (function (e) {
                 var n = { "=": "=0", ":": "=2" };
@@ -8622,10 +8622,10 @@
           if (u)
             return (
               (o = o((u = e))),
-              (e = "" === l ? "." + z(u, 0) : l),
+              (e = "" === l ? "." + P(u, 0) : l),
               k(o)
                 ? ((a = ""),
-                  null != e && (a = e.replace(P, "$&/") + "/"),
+                  null != e && (a = e.replace(z, "$&/") + "/"),
                   N(o, n, a, "", function (e) {
                     return e;
                   }))
@@ -8645,7 +8645,7 @@
                       a +
                         (!o.key || (u && u.key === o.key)
                           ? ""
-                          : ("" + o.key).replace(P, "$&/") + "/") +
+                          : ("" + o.key).replace(z, "$&/") + "/") +
                         e,
                     )),
                   n.push(o)),
@@ -8653,7 +8653,7 @@
             );
           if (((u = 0), (l = "" === l ? "." : l + ":"), k(e)))
             for (var s = 0; s < e.length; s++) {
-              var c = l + z((i = e[s]), s);
+              var c = l + P((i = e[s]), s);
               u += N(i, n, a, c, o);
             }
           else if (
@@ -8667,7 +8667,7 @@
             "function" == typeof c)
           )
             for (e = c.call(e), s = 0; !(i = e.next()).done; )
-              u += N((i = i.value), n, a, (c = l + z(i, s++)), o);
+              u += N((i = i.value), n, a, (c = l + P(i, s++)), o);
           else if ("object" === i)
             throw (
               ((n = String(e)),
@@ -9023,15 +9023,15 @@
           E = !1,
           C = null,
           _ = -1,
-          P = 5,
-          z = -1;
+          z = 5,
+          P = -1;
         function N() {
-          return !(n.unstable_now() - z < P);
+          return !(n.unstable_now() - P < z);
         }
         function L() {
           if (null !== C) {
             var e = n.unstable_now();
-            z = e;
+            P = e;
             var t = !0;
             try {
               t = C(!0, e);
@@ -9080,7 +9080,7 @@
               ? console.error(
                   "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
                 )
-              : (P = 0 < e ? Math.floor(1e3 / e) : 5);
+              : (z = 0 < e ? Math.floor(1e3 / e) : 5);
           }),
           (n.unstable_getCurrentPriorityLevel = function () {
             return p;
@@ -9569,18 +9569,18 @@
     E = 3,
     C = 2,
     _ = 1,
-    P = 10,
-    z = -2,
+    z = 10,
+    P = -2,
     N = (e) => "*" === e;
   function L(e, n) {
     let t = e.split("/"),
       r = t.length;
     return (
-      t.some(N) && (r += z),
+      t.some(N) && (r += P),
       n && (r += C),
       t
         .filter((e) => !N(e))
-        .reduce((e, n) => e + (x.test(n) ? E : "" === n ? _ : P), r)
+        .reduce((e, n) => e + (x.test(n) ? E : "" === n ? _ : z), r)
     );
   }
   function T(e, n, t) {
@@ -10278,16 +10278,9 @@
         (e.UseScrollRestoration = "useScrollRestoration");
     })(ie || (ie = {}));
   const se = function () {
-      return o.createElement("div", null);
-    },
-    ce = function (e) {
-      var n = e.cover;
-      return o.createElement("div", {
-        className: "carousel-item",
-        style: { "--dynamic-path": "url(".concat(n, ")") },
-      });
-    };
-  function fe(e) {
+    return o.createElement("div", null);
+  };
+  function ce(e) {
     var n,
       t,
       r = "";
@@ -10296,15 +10289,18 @@
       if (Array.isArray(e)) {
         var a = e.length;
         for (n = 0; n < a; n++)
-          e[n] && (t = fe(e[n])) && (r && (r += " "), (r += t));
+          e[n] && (t = ce(e[n])) && (r && (r += " "), (r += t));
       } else for (t in e) e[t] && (r && (r += " "), (r += t));
     return r;
   }
-  const de = function () {
-    for (var e, n, t = 0, r = "", a = arguments.length; t < a; t++)
-      (e = arguments[t]) && (n = fe(e)) && (r && (r += " "), (r += n));
-    return r;
-  };
+  const fe = function () {
+      for (var e, n, t = 0, r = "", a = arguments.length; t < a; t++)
+        (e = arguments[t]) && (n = ce(e)) && (r && (r += " "), (r += n));
+      return r;
+    },
+    de = JSON.parse(
+      '[{"publication":{"author":"Franz Kafka","original_title":"Die Verwandlung","language":"German","publisher":"Kurt Wolff Verlag, Leipzig","publication_date":1915,"cover_by":"Ene Chu","cover_author_email":"Ene@myportfolio.com","art_direction":"Expressionism","influenced_by":"Friedrich Nietzsche","year":1915},"book_info":{"title":"The Metamorphosis","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/kafka/kafka-bg.png","bg_y":"./assets/images/kafka/kafka-bg-y.png","first_prewiev":"./assets/images/kafka/kafka-1.png","second_prewiev":"./assets/images/kafka/kafka-2.png","third_prewiev":"./assets/images/kafka/kafka-3.png"}},{"publication":{"author":"Haruki Murakami","original_title":"ノルウェイの森","language":"Japanese","publisher":"Kodansha","publication_date":1987,"cover_by":"Mika Hayashi","cover_author_email":"mika@myart.com","art_direction":"Postmodern","influenced_by":"Raymond Carver","year":1987},"book_info":{"title":"Norwegian Wood","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/murakami/norwegian-wood-bg.png","bg_y":"./assets/images/murakami/norwegian+wood-y-2.jpg","first_prewiev":"./assets/images/murakami/norwegian-wood-12.png","second_prewiev":"./assets/images/murakami/norwegian-wood-13.png","third_prewiev":"./assets/images/murakami/norwegian-wood-15.png"}},{"publication":{"author":"George Orwell","original_title":"Nineteen Eighty-Four","language":"English","publisher":"Secker & Warburg","publication_date":1949,"cover_by":"John Wilson","cover_author_email":"john@myartstudio.com","art_direction":"Dystopian","influenced_by":"H.G. Wells","year":1949},"book_info":{"title":"1984","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/orwell/orwell-bg.jpg","bg_y":"./assets/images/orwell/orwell-bg-y.jpg","first_prewiev":"./assets/images/orwell/orwell-131.png","second_prewiev":"./assets/images/orwell/orwell-121.png","third_prewiev":"./assets/images/orwell/orwell-111.png"}},{"publication":{"author":"Ayn Rand","original_title":"Atlas Shrugged","language":"English","publisher":"Random House","publication_date":1957,"cover_by":"Helen White","cover_author_email":"helen@bookcovers.com","art_direction":"Romantic Realism","influenced_by":"Aristotle","year":1957},"book_info":{"title":"Atlas Shrugged","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/rand/atlas-bg-2.jpg","bg_y":"./assets/images/rand/atlas-bg-y.jpg","first_prewiev":"./assets/images/rand/atlas-131.png","second_prewiev":"./assets/images/rand/atlas-121.png","third_prewiev":"./assets/images/rand/atlas-111.png"}}]',
+    );
   var pe = [
     { index: "01", author: "kafka" },
     { index: "02", author: "murakami" },
@@ -10312,30 +10308,39 @@
     { index: "04", author: "rand" },
   ];
   const me = function (e) {
-    var n = e.currentAuthor;
+    var n = e.currentAuthor,
+      t = e.setCurrentAuthor;
     return o.createElement(
       "nav",
       {
-        className:
-          "absolute left-[50%] top-[50%] -translate-x-1/4 -translate-y-1/4 transition-all",
+        className: "navigation transition-all duration-100 delay-0 ease-in",
+        style: {
+          transform: "translateX(-".concat(
+            (100 / de.length) * (n + 1),
+            "%) translateY(-50%)",
+          ),
+        },
       },
       o.createElement(
         "ul",
         { className: "flex list-none gap-24" },
-        pe.map(function (e, t) {
+        pe.map(function (e, r) {
           return o.createElement(
             "li",
             {
-              className: de("flex flex-col items-start justify-end", {
-                "border-b-2 opacity-100": t === n,
-                "opacity-80": t !== n,
-              }),
-              key: t,
+              onClick: function () {
+                return t(r);
+              },
+              className: fe(
+                "flex cursor-pointer flex-col items-start justify-end text-white",
+                { "border-b-2 opacity-100": r === n, "opacity-80": r !== n },
+              ),
+              key: r,
             },
             o.createElement(
               "span",
               {
-                className: "text-5xl",
+                className: fe({ "text-7xl": n === r, "text-5xl": n !== r }),
                 style: { fontFamily: '"Lacquer", sans-serif' },
               },
               e.index,
@@ -10344,9 +10349,9 @@
             o.createElement(
               "div",
               {
-                className: de("transition-all", {
-                  "text-11xl": t === n,
-                  "text-7xl ": t !== n,
+                className: fe("transition-all", {
+                  "text-10xl": r === n,
+                  "text-7xl": r !== n,
                 }),
                 style: { fontFamily: '"League Gothic", sans-serif' },
               },
@@ -10364,7 +10369,8 @@
     { name: "linkedin", url: "./assets/icons/Linkedin.svg" },
     { name: "dribble", url: "./assets/icons/dribbble.svg" },
   ];
-  const ge = function () {
+  const ge = function (e) {
+      var n = e.color;
       return o.createElement(
         "div",
         { className: "absolute right-8 top-8" },
@@ -10377,8 +10383,11 @@
               { key: e.name },
               o.createElement(
                 "a",
-                { href: "#" },
+                null,
                 o.createElement("img", {
+                  style: {
+                    filter: "black" === n ? "invert(1) hue-rotate(180deg)" : "",
+                  },
                   className: "transition-all hover:scale-125",
                   src: e.url,
                   alt: e.name,
@@ -10389,15 +10398,67 @@
         ),
       );
     },
-    ve = JSON.parse(
-      '[{"publication":{"author":"Franz Kafka","original_title":"Die Verwandlung","language":"German","publisher":"Kurt Wolff Verlag, Leipzig","publication_date":1915,"cover_by":"Ene Chu","cover_author_email":"Ene@myportfolio.com","art_direction":"Expressionism","influenced_by":"Friedrich Nietzsche","year":1915},"book_info":{"title":"The Metamorphosis","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/kafka/kafka-bg.png","bg_y":"./assets/images/kafka/kafka-bg-y.png","first_prewiev":"./assets/images/kafka/kafka-1.png","second_prewiev":"./assets/images/kafka/kafka-2.png","third_prewiev":"./assets/images/kafka/kafka-3.png"}},{"publication":{"author":"Haruki Murakami","original_title":"ノルウェイの森","language":"Japanese","publisher":"Kodansha","publication_date":1987,"cover_by":"Mika Hayashi","cover_author_email":"mika@myart.com","art_direction":"Postmodern","influenced_by":"Raymond Carver","year":1987},"book_info":{"title":"Norwegian Wood","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/murakami/norwegian-wood-bg.png","bg_y":"./assets/images/murakami/norwegian+wood-y-2.jpg","first_prewiev":"./assets/images/murakami/norwegian-wood-12.png","second_prewiev":"./assets/images/murakami/norwegian-wood-13.png","third_prewiev":"./assets/images/murakami/norwegian-wood-15.png"}},{"publication":{"author":"George Orwell","original_title":"Nineteen Eighty-Four","language":"English","publisher":"Secker & Warburg","publication_date":1949,"cover_by":"John Wilson","cover_author_email":"john@myartstudio.com","art_direction":"Dystopian","influenced_by":"H.G. Wells","year":1949},"book_info":{"title":"1984","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/orwell/orwell-bg.jpg","bg_y":"./assets/images/orwell/orwell-bg-y.jpg","first_prewiev":"./assets/images/orwell/orwell-131.png","second_prewiev":"./assets/images/orwell/orwell-121.png","third_prewiev":"./assets/images/orwell/orwell-111.png"}},{"publication":{"author":"Ayn Rand","original_title":"Atlas Shrugged","language":"English","publisher":"Random House","publication_date":1957,"cover_by":"Helen White","cover_author_email":"helen@bookcovers.com","art_direction":"Romantic Realism","influenced_by":"Aristotle","year":1957},"book_info":{"title":"Atlas Shrugged","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."},"images":{"bg":"./assets/images/rand/atlas-bg-2.jpg","bg_y":"./assets/images/rand/atlas-bg-y.jpg","first_prewiev":"./assets/images/rand/atlas-131.png","second_prewiev":"./assets/images/rand/atlas-121.png","third_prewiev":"./assets/images/rand/atlas-111.png"}}]',
-    );
-  function ye(e, n) {
+    ve = function (e) {
+      var n = e.color;
+      return o.createElement(
+        "div",
+        {
+          className:
+            "absolute left-8 top-8 z-10 flex flex-col items-start text-white",
+        },
+        o.createElement(
+          "h4",
+          {
+            className: fe("text-2xl font-bold", {
+              "text-white": "white" === n,
+              "text-black": "black" === n,
+            }),
+            style: { fontFamily: '"Libre Franklin", sans-serif' },
+          },
+          ".COVER",
+        ),
+        o.createElement(
+          "span",
+          {
+            className: fe("text-xl font-bold", {
+              "text-white": "white" === n,
+              "text-black": "black" === n,
+            }),
+          },
+          "Home",
+        ),
+      );
+    },
+    ye = function (e) {
+      var n = e.cover;
+      return o.createElement("div", {
+        className: "carousel-item",
+        style: { "--dynamic-path": "url(".concat(n, ")") },
+      });
+    },
+    be = function (e) {
+      var n = e.currentAuthor;
+      return o.createElement(
+        "div",
+        {
+          className:
+            "carousel transition-all delay-75 duration-500 ease-linear",
+          style: {
+            "--dynamic-length": de.length,
+            transform: "translateX(-".concat(100 * n, "vw)"),
+          },
+        },
+        de.map(function (e, n) {
+          return o.createElement(ye, { key: n, cover: e.images.bg });
+        }),
+      );
+    };
+  function we(e, n) {
     (null == n || n > e.length) && (n = e.length);
     for (var t = 0, r = Array(n); t < n; t++) r[t] = e[t];
     return r;
   }
-  const be = function () {
+  const ke = function () {
       var e = (function (e, n) {
           return (
             (function (e) {
@@ -10447,7 +10508,7 @@
             })(e, n) ||
             (function (e, n) {
               if (e) {
-                if ("string" == typeof e) return ye(e, n);
+                if ("string" == typeof e) return we(e, n);
                 var t = {}.toString.call(e).slice(8, -1);
                 return (
                   "Object" === t && e.constructor && (t = e.constructor.name),
@@ -10455,7 +10516,7 @@
                     ? Array.from(e)
                     : "Arguments" === t ||
                         /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
-                      ? ye(e, n)
+                      ? we(e, n)
                       : void 0
                 );
               }
@@ -10467,25 +10528,36 @@
             })()
           );
         })((0, o.useState)(0), 2),
-        n = e[0];
-      return (
-        e[1],
-        o.createElement(
-          "section",
-          { id: "hero" },
-          o.createElement(
-            "div",
-            { className: "carousel", style: { "--dynamic-length": ve.length } },
-            ve.map(function (e, n) {
-              return o.createElement(ce, { key: n, cover: e.images.bg });
-            }),
-          ),
-          o.createElement(me, { currentAuthor: n }),
-          o.createElement(ge, null),
-        )
+        n = e[0],
+        t = e[1];
+      return o.createElement(
+        "section",
+        {
+          tabIndex: 0,
+          onKeyDown: function (e) {
+            if ("ArrowRight" === e.key) {
+              if (n + 1 > de.length - 1) return;
+              t(function (e) {
+                return e + 1;
+              });
+            }
+            if ("ArrowLeft" === e.key) {
+              if (n < 1) return;
+              t(function (e) {
+                return e - 1;
+              });
+            }
+          },
+          id: "hero",
+          className: "relative",
+        },
+        o.createElement(ve, { color: "white" }),
+        o.createElement(be, { currentAuthor: n }),
+        o.createElement(me, { currentAuthor: n, setCurrentAuthor: t }),
+        o.createElement(ge, { color: "white" }),
       );
     },
-    we = function () {
+    Se = function () {
       return o.createElement(
         o.Fragment,
         null,
@@ -10494,7 +10566,7 @@
           null,
           o.createElement(ee, {
             path: "/",
-            element: o.createElement(be, null),
+            element: o.createElement(ke, null),
           }),
           o.createElement(ee, {
             path: "/book",
@@ -10503,34 +10575,34 @@
         ),
       );
     };
-  var ke = a(72),
-    Se = a.n(ke),
-    xe = a(825),
+  var xe = a(72),
     Ee = a.n(xe),
-    Ce = a(659),
+    Ce = a(825),
     _e = a.n(Ce),
-    Pe = a(56),
-    ze = a.n(Pe),
-    Ne = a(159),
+    ze = a(659),
+    Pe = a.n(ze),
+    Ne = a(56),
     Le = a.n(Ne),
-    Te = a(113),
+    Te = a(159),
     Re = a.n(Te),
-    Me = a(972),
-    Oe = {};
-  (Oe.styleTagTransform = Re()),
-    (Oe.setAttributes = ze()),
-    (Oe.insert = _e().bind(null, "head")),
-    (Oe.domAPI = Ee()),
-    (Oe.insertStyleElement = Le()),
-    Se()(Me.A, Oe),
-    Me.A && Me.A.locals && Me.A.locals,
+    Me = a(113),
+    Oe = a.n(Me),
+    Fe = a(972),
+    De = {};
+  (De.styleTagTransform = Oe()),
+    (De.setAttributes = Le()),
+    (De.insert = Pe().bind(null, "head")),
+    (De.domAPI = _e()),
+    (De.insertStyleElement = Re()),
+    Ee()(Fe.A, De),
+    Fe.A && Fe.A.locals && Fe.A.locals,
     u
       .createRoot(document.getElementById("root"))
       .render(
         o.createElement(
           o.StrictMode,
           null,
-          o.createElement(le, null, o.createElement(we, null)),
+          o.createElement(le, null, o.createElement(Se, null)),
         ),
       );
 })();

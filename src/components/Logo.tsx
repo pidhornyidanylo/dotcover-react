@@ -7,7 +7,7 @@ type LogoProps = {
 
 const Logo: React.FC<LogoProps> = ({ color }: LogoProps) => {
   return (
-    <div className="absolute left-8 top-8 z-10 flex flex-col items-start text-white">
+    <div className="absolute left-7 top-8 z-10 flex flex-col items-start text-white 2xl:left-24">
       <h4
         className={clsx("text-2xl font-bold", {
           "text-white": color === "white",

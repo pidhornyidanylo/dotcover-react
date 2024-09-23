@@ -1,16 +1,16 @@
-import  React from "react";
+import React from "react";
 
 type CarouselSlideProps = {
-	cover: string;
+  cover: string;
 };
 
 const CarouselSlide = ({ cover }: CarouselSlideProps) => {
-	return (
-		<div
-			className="carousel-item"
-			style={{ "--dynamic-path": `url(${cover})` } as React.CSSProperties}
-		/>
-	);
+  return (
+    <div
+      className="carousel-item"
+      style={{ "--dynamic-path": `url(${cover})` } as React.CSSProperties}
+    />
+  );
 };
 
 export default CarouselSlide;

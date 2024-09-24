@@ -1,37 +1,53 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
-import Navigation from "../components/Navigation";
-import Social from "../components/Social";
-import Logo from "../components/Logo";
-import Carousel from "../components/Carousel";
-import data from "../data.json";
-import AboutContent from "../components/AboutContent";
 import clsx from "clsx";
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import AboutContent from "../components/about/AboutContent";
+import Carousel from "../components/hero/Carousel";
+import Logo from "../components/Logo";
+import Social from "../components/Social";
+import NavigationSlider from "../components/navigation/NavigationSlider";
+import NaviationList from "../components/navigation/NaviationList";
+import data from "../data.json";
 
 const Home: React.FC = () => {
   const [currentAuthor, setCurrentAuthor] = useState(0);
   const [scrolledOut, setScrolledOut] = useState(false);
+  const [showListedNaviation, setShowListedNaviation] = useState(false);
+
   useEffect(() => {
-    const handleResize = () => {
+    const handleWindowDynamics = () => {
       setScrolledOut(window.scrollY > window.innerHeight / 2);
+      setShowListedNaviation(window.innerWidth < 639);
     };
 
-    handleResize();
-    window.addEventListener("scroll", handleResize);
+    handleWindowDynamics();
+    window.addEventListener("scroll", handleWindowDynamics);
+    window.addEventListener("resize", handleWindowDynamics);
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowDynamics);
+      window.removeEventListener("scroll", handleWindowDynamics);
+    };
   }, []);
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLElement>) => {
     if (e.key === "ArrowRight") {
-      if (currentAuthor + 1 > data.length - 1) return;
+      if (currentAuthor + 1 > data.length - 1) {
+        setCurrentAuthor(0);
+        return;
+      }
       setCurrentAuthor((prev) => prev + 1);
     }
     if (e.key === "ArrowLeft") {
-      if (currentAuthor < 1) return;
+      if (currentAuthor < 1) {
+        setCurrentAuthor(data.length - 1);
+        return;
+      }
       setCurrentAuthor((prev) => prev - 1);
     }
   };
+
   return (
     <>
       <section tabIndex={0} onKeyDown={handleKeyDown} id="hero">
@@ -43,13 +59,20 @@ const Home: React.FC = () => {
               "z-0 opacity-0": !scrolledOut,
             },
           )}
-        ></div>
+        />
         <Logo color={"white"} />
         <Carousel currentAuthor={currentAuthor} />
-        <Navigation
-          currentAuthor={currentAuthor}
-          setCurrentAuthor={setCurrentAuthor}
-        />
+        {showListedNaviation ? (
+          <NaviationList
+            currentAuthor={currentAuthor}
+            setCurrentAuthor={setCurrentAuthor}
+          />
+        ) : (
+          <NavigationSlider
+            currentAuthor={currentAuthor}
+            setCurrentAuthor={setCurrentAuthor}
+          />
+        )}
         <Social color={"white"} />
       </section>
       <section

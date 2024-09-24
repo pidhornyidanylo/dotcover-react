@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../data.json";
+import PublicationHeader from "./PublicationHeader";
+import data from "../../data.json";
 
 const AboutContent = ({
   currentAuthor,
@@ -18,30 +19,12 @@ const AboutContent = ({
   return (
     <>
       <div className="w-full 2xl:w-1/2">
-        <h4
-          className="mb-4 text-xl text-gray-500"
-          style={{ fontFamily: '"Poppins", sans-serif' }}
-        >
-          {data[currentAuthor].publication.author}
-        </h4>
-        <h2
-          className="mb-10 text-4xl font-bold"
-          style={{ fontFamily: '"Libre Caslon Text", sans-serif' }}
-        >
-          {data[currentAuthor].book_info.title}
-        </h2>
-        <div className="mb-8 flex items-center gap-6 lg:mb-20 xl:mb-20 2xl:mb-20">
-          <img
-            src={"assets/icons/Man.png"}
-            width="40px"
-            height="40px"
-            alt="avatar"
-          />
-          <div style={{ fontFamily: '"Poppins", sans-serif' }}>
-            <p>{data[currentAuthor].publication.cover_by}</p>
-            <p>{data[currentAuthor].publication.cover_author_email}</p>
-          </div>
-        </div>
+        <PublicationHeader
+          authorName={data[currentAuthor].publication.author}
+          bookTitle={data[currentAuthor].book_info.title}
+          coverAuthorName={data[currentAuthor].publication.cover_by}
+          coverAuthorEmail={data[currentAuthor].publication.cover_author_email}
+        />
         <div
           className="flex flex-col"
           style={{ fontFamily: '"Poppins", sans-serif' }}

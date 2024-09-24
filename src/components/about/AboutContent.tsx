@@ -20,6 +20,7 @@ const AboutContent = ({
     <>
       <div className="w-full 2xl:w-1/2">
         <PublicationHeader
+          // iconURL={'assets/icons/Man.png'}
           authorName={data[currentAuthor].publication.author}
           bookTitle={data[currentAuthor].book_info.title}
           coverAuthorName={data[currentAuthor].publication.cover_by}

@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import AboutContent from "../components/about/AboutContent";
@@ -10,8 +10,15 @@ import NavigationSlider from "../components/navigation/NavigationSlider";
 import NaviationList from "../components/navigation/NaviationList";
 import data from "../data.json";
 
-const Home: React.FC = () => {
-  const [currentAuthor, setCurrentAuthor] = useState(0);
+type HomeProps = {
+  currentAuthor: number;
+  setCurrentAuthor: (nextValue: number) => void;
+};
+
+const Home: React.FC<HomeProps> = ({
+  currentAuthor,
+  setCurrentAuthor,
+}: HomeProps) => {
   const [scrolledOut, setScrolledOut] = useState(false);
   const [showListedNaviation, setShowListedNaviation] = useState(false);
 
@@ -37,14 +44,14 @@ const Home: React.FC = () => {
         setCurrentAuthor(0);
         return;
       }
-      setCurrentAuthor((prev) => prev + 1);
+      setCurrentAuthor(currentAuthor + 1);
     }
     if (e.key === "ArrowLeft") {
       if (currentAuthor < 1) {
         setCurrentAuthor(data.length - 1);
         return;
       }
-      setCurrentAuthor((prev) => prev - 1);
+      setCurrentAuthor(currentAuthor - 1);
     }
   };
 
@@ -60,7 +67,12 @@ const Home: React.FC = () => {
             },
           )}
         />
-        <Logo color={"white"} />
+        <Logo
+          currentAuthor={data[currentAuthor].publication.author
+            .split(" ")[1]
+            .toLowerCase()}
+          color={"white"}
+        />
         <Carousel currentAuthor={currentAuthor} />
         {showListedNaviation ? (
           <NaviationList
@@ -86,7 +98,7 @@ const Home: React.FC = () => {
         )}
       >
         <AboutContent
-          setCurrentAuthor={() => setCurrentAuthor((prev) => prev + 1)}
+          setCurrentAuthor={() => setCurrentAuthor(currentAuthor++)}
           currentAuthor={currentAuthor}
         />
       </section>

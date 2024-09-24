@@ -1,14 +1,21 @@
+import clsx from "clsx";
 import React from "react";
 
-
 type PublicationHeaderProps = {
-    authorName: string;
-    bookTitle: string;
-    coverAuthorName: string;
-    coverAuthorEmail: string;
-}
+  type?: "big";
+  authorName: string;
+  bookTitle: string;
+  coverAuthorName: string;
+  coverAuthorEmail: string;
+};
 
-const PublicationHeader = ({ authorName, bookTitle, coverAuthorName, coverAuthorEmail }: PublicationHeaderProps) => {
+const PublicationHeader = ({
+  authorName,
+  bookTitle,
+  coverAuthorName,
+  coverAuthorEmail,
+  type,
+}: PublicationHeaderProps) => {
   return (
     <>
       <h4
@@ -18,14 +25,22 @@ const PublicationHeader = ({ authorName, bookTitle, coverAuthorName, coverAuthor
         {authorName}
       </h4>
       <h2
-        className="mb-10 text-4xl font-bold"
+        className={clsx("mb-10 font-bold", {
+          "text-4xl": !type,
+          "text-7xl": type === "big",
+        })}
         style={{ fontFamily: '"Libre Caslon Text", sans-serif' }}
       >
         {bookTitle}
       </h2>
-      <div className="mb-8 flex items-center gap-6 lg:mb-20 xl:mb-20 2xl:mb-20">
+      <div
+        className={clsx("flex items-center gap-6", {
+          "mb-8 lg:mb-20 xl:mb-20 2xl:mb-20": !type,
+          "lg:mb-30 xl:mb-30 2xl:mb-30 mb-28": type === "big",
+        })}
+      >
         <img
-          src={"assets/icons/Man.png"}
+          src={"/assets/icons/Man.png"}
           width="40px"
           height="40px"
           alt="avatar"

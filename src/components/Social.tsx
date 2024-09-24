@@ -3,23 +3,23 @@ import React from "react";
 const socialArray = [
   {
     name: "behance",
-    url: "./assets/icons/Behance.svg",
+    url: "/assets/icons/Behance.svg",
   },
   {
     name: "pinterest",
-    url: "./assets/icons/Pinterest.svg",
+    url: "/assets/icons/Pinterest.svg",
   },
   {
     name: "instagram",
-    url: "./assets/icons/instagram.svg",
+    url: "/assets/icons/instagram.svg",
   },
   {
     name: "linkedin",
-    url: "./assets/icons/Linkedin.svg",
+    url: "/assets/icons/Linkedin.svg",
   },
   {
     name: "dribble",
-    url: "./assets/icons/dribbble.svg",
+    url: "/assets/icons/dribbble.svg",
   },
 ];
 
@@ -29,7 +29,7 @@ type SocialProps = {
 
 const Social: React.FC<SocialProps> = ({ color }: SocialProps) => {
   return (
-    <div className="absolute right-8 top-8">
+    <div className="absolute right-8 top-8 z-20">
       <ul className="flex list-none flex-col gap-3">
         {socialArray.map((socialItem) => (
           <li key={socialItem.name}>
@@ -39,7 +39,7 @@ const Social: React.FC<SocialProps> = ({ color }: SocialProps) => {
                   filter:
                     color === "black" ? "invert(1) hue-rotate(180deg)" : "",
                 }}
-                className="transition-all hover:scale-125"
+                className="cursor-pointer transition-all hover:scale-125"
                 src={socialItem.url}
                 alt={socialItem.name}
               />

@@ -1,13 +1,16 @@
 import clsx from "clsx";
 import React from "react";
+import BookLink from "./BookLink";
+import { Link } from "react-router-dom";
 
 type LogoProps = {
   color: "white" | "black";
+  currentAuthor: string;
 };
 
-const Logo: React.FC<LogoProps> = ({ color }: LogoProps) => {
+const Logo: React.FC<LogoProps> = ({ color, currentAuthor }: LogoProps) => {
   return (
-    <div className="absolute left-7 top-8 z-10 flex flex-col items-start text-white 2xl:left-24">
+    <div className="absolute left-7 top-8 z-20 flex flex-col items-start gap-3 text-white 2xl:left-24">
       <h4
         className={clsx("text-2xl font-bold", {
           "text-white": color === "white",
@@ -17,14 +20,18 @@ const Logo: React.FC<LogoProps> = ({ color }: LogoProps) => {
       >
         .COVER
       </h4>
-      <span
-        className={clsx("text-xl font-bold", {
-          "text-white": color === "white",
-          "text-black": color === "black",
-        })}
-      >
-        Home
-      </span>
+      {color === "white" ? (
+        <span className="text-xl font-bold text-white">
+          Home {">"} <BookLink currentAuthor={currentAuthor} />
+        </span>
+      ) : (
+        <span className="text-xl font-bold text-black">
+          <Link className="text-2xl italic" to={"/"}>
+            Home
+          </Link>{" "}
+          {">"} <span>{currentAuthor}</span>
+        </span>
+      )}
     </div>
   );
 };

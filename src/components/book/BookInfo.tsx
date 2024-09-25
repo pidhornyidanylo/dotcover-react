@@ -17,32 +17,37 @@ const BookInfo: React.FC<BookInfoProps> = ({
   publicationDate,
   coverBy,
 }: BookInfoProps) => {
+  const InfoBoxItemStyles = "flex 2xl:gap-12 xl:gap-12 lg:gap-12 gap-4";
+  const InfoBoxItemTitleStyles =
+    "2xl:w-[150px] xl:w-[150px] lg:w-[150px] md:w-[150px] w-[140px] text-gray-700 2xl:text-xl xl:text-xl lg:text-xl text-sm";
+  const InfoBoxItemValueStyles =
+    "flex-1 2xl:text-xl xl:text-xl lg:text-xl text-sm";
   return (
     <>
-      <div className="flex flex-col gap-1 self-end text-xl">
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Author</span>
-          <span className="flex-1">{author}</span>
+      <div className="flex flex-col gap-1 self-end text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Author</span>
+          <span className={InfoBoxItemValueStyles}>{author}</span>
         </div>
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Original Title</span>
-          <span className="flex-1">{originalTitle}</span>
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Original Title</span>
+          <span className={InfoBoxItemValueStyles}>{originalTitle}</span>
         </div>
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Language</span>
-          <span className="flex-1">{language}</span>
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Language</span>
+          <span className={InfoBoxItemValueStyles}>{language}</span>
         </div>
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Publisher</span>
-          <span className="flex-1">{publisher}</span>
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Publisher</span>
+          <span className={InfoBoxItemValueStyles}>{publisher}</span>
         </div>
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Publication date</span>
-          <span className="flex-1">{publicationDate}</span>
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Publication date</span>
+          <span className={InfoBoxItemValueStyles}>{publicationDate}</span>
         </div>
-        <div className="flex xl:gap-12">
-          <span className="w-[150px] text-gray-700">Cover by</span>
-          <span className="flex-1">{coverBy}</span>
+        <div className={InfoBoxItemStyles}>
+          <span className={InfoBoxItemTitleStyles}>Cover by</span>
+          <span className={InfoBoxItemValueStyles}>{coverBy}</span>
         </div>
       </div>
     </>

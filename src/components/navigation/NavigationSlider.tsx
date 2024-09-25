@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
-import Carousel from "react-spring-3d-carousel";
+import React from "react";
+import { useEffect, useState } from "react";
 import { config } from "react-spring";
+import Carousel from "react-spring-3d-carousel";
 
 export const navigationData = [
   { index: "01", author: "kafka" },

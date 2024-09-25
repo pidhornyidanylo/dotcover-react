@@ -33,7 +33,7 @@ const Social: React.FC<SocialProps> = ({ color }: SocialProps) => {
       <ul className="flex list-none flex-col gap-3">
         {socialArray.map((socialItem) => (
           <li key={socialItem.name}>
-            <a>
+            <a href="#">
               <img
                 style={{
                   filter:

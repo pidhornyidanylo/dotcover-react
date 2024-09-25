@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import React from "react";
-import BookLink from "./BookLink";
 import { Link } from "react-router-dom";
+import BookLink from "./BookLink";
 
 type LogoProps = {
   color: "white" | "black";

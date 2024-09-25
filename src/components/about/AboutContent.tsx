@@ -1,6 +1,6 @@
 import React from "react";
-import PublicationHeader from "./PublicationHeader";
 import data from "../../data.json";
+import PublicationHeader from "./PublicationHeader";
 
 const AboutContent = ({
   currentAuthor,
@@ -11,16 +11,13 @@ const AboutContent = ({
 }) => {
   const nextAuthor =
     currentAuthor + 1 < data.length
-      ? "0" +
-        (currentAuthor + 1 + 1) +
-        ". " +
-        data[currentAuthor + 1].publication.author
+      ? `0${currentAuthor + 2}. ${data[currentAuthor + 1].publication.author}`
       : "End of list";
+
   return (
     <>
       <div className="w-full 2xl:w-1/2">
         <PublicationHeader
-          // iconURL={'assets/icons/Man.png'}
           authorName={data[currentAuthor].publication.author}
           bookTitle={data[currentAuthor].book_info.title}
           coverAuthorName={data[currentAuthor].publication.cover_by}
@@ -55,8 +52,8 @@ const AboutContent = ({
           </p>
           <div className="flex gap-14">
             <div className="relative flex-1 border-b-1 border-black">
-              <span className="absolute -right-0.5 top-[20px] h-0.25 w-4 rotate-30 bg-black"></span>
-              <span className="absolute -right-0.5 top-[28px] h-0.25 w-4 -rotate-30 bg-black"></span>
+              <span className="absolute -right-0.5 top-[20px] h-0.25 w-4 rotate-30 bg-black" />
+              <span className="absolute -right-0.5 top-[28px] h-0.25 w-4 -rotate-30 bg-black" />
             </div>
             <span
               onClick={() =>

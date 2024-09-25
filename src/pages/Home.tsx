@@ -1,13 +1,14 @@
 import clsx from "clsx";
-import React, { Dispatch, SetStateAction } from "react";
+import React from "react";
+import { Dispatch, SetStateAction } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import AboutContent from "../components/about/AboutContent";
-import Carousel from "../components/hero/Carousel";
 import Logo from "../components/Logo";
 import Social from "../components/Social";
-import NavigationSlider from "../components/navigation/NavigationSlider";
+import AboutContent from "../components/about/AboutContent";
+import Carousel from "../components/hero/Carousel";
 import NaviationList from "../components/navigation/NaviationList";
+import NavigationSlider from "../components/navigation/NavigationSlider";
 import data from "../data.json";
 
 type HomeProps = {
@@ -21,6 +22,10 @@ const Home: React.FC<HomeProps> = ({
 }: HomeProps) => {
   const [scrolledOut, setScrolledOut] = useState(false);
   const [showListedNaviation, setShowListedNaviation] = useState(false);
+
+  useEffect(() => {
+    setCurrentAuthor(0);
+  }, []);
 
   useEffect(() => {
     const handleWindowDynamics = () => {

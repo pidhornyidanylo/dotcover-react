@@ -1,16 +1,16 @@
 import React from "react";
-import data from "../data.json";
 import Logo from "../components/Logo";
-import BookInfo from "../components/book/BookInfo";
-import PublicationHeader from "../components/about/PublicationHeader";
 import Social from "../components/Social";
+import PublicationHeader from "../components/about/PublicationHeader";
+import BookInfo from "../components/book/BookInfo";
+import data from "../data.json";
 
 const Book = ({ currentAuthor }: { currentAuthor: number }) => {
   const currentData = data[currentAuthor];
   return (
-    <div className="flex h-[100vh] w-full gap-24">
+    <div className="block h-[100vh] w-full gap-24 xl:flex 2xl:flex">
       <Logo color={"black"} currentAuthor={currentData.publication.author} />
-      <section className="flex h-full w-3/5 flex-col justify-between pb-7 pl-7 pt-24 text-black 2xl:pl-24">
+      <section className="lg-w-3/5 flex h-full w-full flex-col justify-between gap-24 pb-7 pl-7 pr-12 pt-48 text-black md:gap-0 lg:gap-0 lg:pt-24 xl:w-3/5 xl:gap-0 xl:pt-24 2xl:w-3/5 2xl:gap-0 2xl:pl-24 2xl:pt-24">
         <BookInfo
           author={currentData.publication.author}
           originalTitle={currentData.publication.original_title}
@@ -37,7 +37,7 @@ const Book = ({ currentAuthor }: { currentAuthor: number }) => {
         </div>
       </section>
       <section
-        className="w-3/6"
+        className="w-3/6 lg:visible xl:visible 2xl:visible"
         style={{
           background: `url(${currentData.images.bg_y})`,
           backgroundPosition: "center",

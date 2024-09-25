@@ -1,19 +1,28 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { useLocalStorage } from "./useLocalStorage";
 import Book from "./pages/Book";
 import Home from "./pages/Home";
+import { useLocalStorage } from "./useLocalStorage";
 
 const App = () => {
-  const { data, updateData } = useLocalStorage();
+  const { currentAuthor, setCurrentAuthor } = useLocalStorage();
+
   return (
     <>
       <Routes>
         <Route
           path="/"
-          element={<Home currentAuthor={data} setCurrentAuthor={updateData} />}
+          element={
+            <Home
+              currentAuthor={currentAuthor}
+              setCurrentAuthor={setCurrentAuthor}
+            />
+          }
         />
-        <Route path="/book/:author" element={<Book currentAuthor={data} />} />
+        <Route
+          path="/book/:author"
+          element={<Book currentAuthor={currentAuthor} />}
+        />
       </Routes>
     </>
   );

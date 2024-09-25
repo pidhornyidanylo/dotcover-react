@@ -27,7 +27,8 @@ const PublicationHeader = ({
       <h2
         className={clsx("mb-10 font-bold", {
           "text-4xl": !type,
-          "text-7xl": type === "big",
+          "text-4xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl":
+            type === "big",
         })}
         style={{ fontFamily: '"Libre Caslon Text", sans-serif' }}
       >

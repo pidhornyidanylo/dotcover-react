@@ -1,6 +1,6 @@
-import React from "react";
-import { navigationData, type NavigationProps } from "./NavigationSlider";
 import clsx from "clsx";
+import React from "react";
+import { type NavigationProps, navigationData } from "./NavigationSlider";
 
 const NaviationList: React.FC<NavigationProps> = ({
   currentAuthor,

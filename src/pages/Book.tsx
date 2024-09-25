@@ -10,7 +10,7 @@ const Book = ({ currentAuthor }: { currentAuthor: number }) => {
   return (
     <div className="block h-[100vh] w-full xl:flex 2xl:flex">
       <Logo color={"black"} currentAuthor={currentData.publication.author} />
-      <section className="lg-w-3/5 flex h-full w-full flex-col justify-between gap-24 pb-7 pl-7 pr-20 pt-36 text-black md:gap-0 lg:gap-0 lg:pt-24 xl:w-3/5 xl:gap-0 xl:pt-24 2xl:w-3/5 2xl:gap-0 2xl:pl-24 2xl:pt-24">
+      <section className="lg-w-3/5 flex h-full w-full flex-col justify-between gap-24 pb-7 pl-7 pr-10 pt-36 text-black md:gap-0 md:pr-20 lg:gap-0 lg:pr-20 lg:pt-24 xl:w-3/5 xl:gap-0 xl:pr-20 xl:pt-24 2xl:w-3/5 2xl:gap-0 2xl:pl-24 2xl:pr-20 2xl:pt-24">
         <BookInfo
           author={currentData.publication.author}
           originalTitle={currentData.publication.original_title}
@@ -19,7 +19,7 @@ const Book = ({ currentAuthor }: { currentAuthor: number }) => {
           publicationDate={currentData.publication.publication_date}
           coverBy={currentData.publication.cover_by}
         />
-        <div className="flex-1 flex flex-col justify-end">
+        <div className="flex flex-1 flex-col justify-end">
           <PublicationHeader
             type="big"
             authorName={currentData.publication.author}

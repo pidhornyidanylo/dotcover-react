@@ -66,7 +66,7 @@ const AboutContent = ({
           </div>
         </div>
       </div>
-      <div className="flex w-full items-center justify-around gap-12 2xl:w-2/3 flex-wrap 2xl:flex-nowrap xl:flex-nowrap">
+      <div className="flex w-full flex-wrap items-center justify-around gap-12 xl:flex-nowrap 2xl:w-2/3 2xl:flex-nowrap">
         <img
           src={data[currentAuthor].images.first_prewiev}
           width="256px"

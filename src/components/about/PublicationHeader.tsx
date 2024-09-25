@@ -37,7 +37,7 @@ const PublicationHeader = ({
       <div
         className={clsx("flex items-center gap-6", {
           "mb-8 lg:mb-20 xl:mb-20 2xl:mb-20": !type,
-          "lg:mb-30 xl:mb-30 2xl:mb-30 mb-16": type === "big",
+          "lg:mb-30 xl:mb-30 2xl:mb-30 mb-12": type === "big",
         })}
       >
         <img

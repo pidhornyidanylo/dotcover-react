@@ -24,7 +24,7 @@ const BookInfo: React.FC<BookInfoProps> = ({
     "flex-1 2xl:text-xl xl:text-xl lg:text-xl text-sm";
   return (
     <>
-      <div className="flex flex-col gap-1 self-end text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
+      <div className="flex-col gap-1 self-end text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl 2xl:flex xl:flex lg:flex md:flex hidden">
         <div className={InfoBoxItemStyles}>
           <span className={InfoBoxItemTitleStyles}>Author</span>
           <span className={InfoBoxItemValueStyles}>{author}</span>

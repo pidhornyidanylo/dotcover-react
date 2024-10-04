@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import BookLink from "./BookLink";
 
@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({ color, currentAuthor }: LogoProps) => {
       <h4
         className={clsx("text-2xl font-bold", {
           "text-white": color === "white",
-          "text-black": color === "black",
+          "text-black bg-white p-1 rounded-sm": color === "black",
         })}
         style={{ fontFamily: '"Libre Franklin", sans-serif' }}
       >
@@ -25,7 +25,7 @@ const Logo: React.FC<LogoProps> = ({ color, currentAuthor }: LogoProps) => {
           Home {">"} <BookLink currentAuthor={currentAuthor} />
         </span>
       ) : (
-        <span className="text-xl font-bold text-black">
+        <span className="text-xl font-bold text-black bg-white p-1 rounded-sm">
           <Link className="text-2xl italic" to={"/"}>
             Home
           </Link>{" "}

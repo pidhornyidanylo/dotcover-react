@@ -13,12 +13,13 @@ const Carousel: React.FC<CarouselProps> = ({
   return (
     <div
       className="carousel transition-all delay-75 duration-500 ease-linear"
-      style={
-        {
-          "--dynamic-length": data.length,
-          transform: `translateX(-${currentAuthor * 100}vw)`,
-        } as React.CSSProperties
-      }
+      style={{
+        width: `calc(100vw * ${data.length})`,
+        flexDirection: "row",
+        display: "flex",
+        height: "100%",
+        transform: `translateX(-${currentAuthor * 100}vw)`,
+      }}
     >
       {data.map((data: BookType, index) => (
         <CarouselSlide key={index} cover={data.images.bg} />

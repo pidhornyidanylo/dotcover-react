@@ -6,7 +6,6 @@ import { useLocalStorage } from "./useLocalStorage";
 
 const App = () => {
   const { currentAuthor, setCurrentAuthor } = useLocalStorage();
-
   return (
     <>
       <Routes>

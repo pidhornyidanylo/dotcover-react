@@ -2,7 +2,7 @@ import clsx from "clsx";
 import React from "react";
 import { type NavigationProps, navigationData } from "./NavigationSlider";
 
-const NaviationList: React.FC<NavigationProps> = ({
+const NavigationList: React.FC<NavigationProps> = ({
   currentAuthor,
   setCurrentAuthor,
 }: NavigationProps) => {
@@ -40,4 +40,4 @@ const NaviationList: React.FC<NavigationProps> = ({
   );
 };
 
-export default NaviationList;
+export default NavigationList;

@@ -6,7 +6,7 @@ import Logo from "../components/Logo";
 import Social from "../components/Social";
 import AboutContent from "../components/about/AboutContent";
 import Carousel from "../components/hero/Carousel";
-import NaviationList from "../components/navigation/NaviationList";
+import NavigationList from "../components/navigation/NavigationList";
 import NavigationSlider from "../components/navigation/NavigationSlider";
 import data from "../data.json";
 
@@ -61,7 +61,7 @@ const Home: React.FC<HomeProps> = ({
 
   return (
     <>
-      <section tabIndex={0} onKeyDown={handleKeyDown} id="hero">
+      <section data-testid="hero-section" tabIndex={0} onKeyDown={handleKeyDown} id="hero">
         <div
           className={clsx(
             "absolute z-20 min-h-[100vh] w-[100vw] transition-all",
@@ -79,7 +79,7 @@ const Home: React.FC<HomeProps> = ({
         />
         <Carousel currentAuthor={currentAuthor} />
         {showListedNaviation ? (
-          <NaviationList
+          <NavigationList
             currentAuthor={currentAuthor}
             setCurrentAuthor={setCurrentAuthor}
           />
@@ -93,6 +93,7 @@ const Home: React.FC<HomeProps> = ({
       </section>
       <section
         id="about"
+        data-testid="about-section"
         className={clsx(
           "m-w-[100%] m-0 flex min-h-[580px] flex-col justify-between gap-16 overflow-hidden pb-12 pl-7 pr-7 pt-12 transition-all 2xl:flex-row 2xl:gap-8 2xl:pl-24",
           {
